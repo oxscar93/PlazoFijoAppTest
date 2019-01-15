@@ -1,4 +1,4 @@
-INSERT INTO `plazofijo`.`banco`
+INSERT INTO `PlazoFijo`.`Banco`
 (
 `banco`,
 `createdAt`,
@@ -9,7 +9,7 @@ VALUES
 Now(),
 Now());
 
-INSERT INTO `plazofijo`.`banco`
+INSERT INTO `PlazoFijo`.`Banco`
 (
 `banco`,
 `createdAt`,
@@ -20,7 +20,7 @@ VALUES
 Now(),
 Now());
 
-INSERT INTO `plazofijo`.`banco`
+INSERT INTO `PlazoFijo`.`Banco`
 (
 `banco`,
 `createdAt`,
@@ -31,7 +31,7 @@ VALUES
 Now(),
 Now());
 
-INSERT INTO `plazofijo`.`bancoplazotasa`
+INSERT INTO `PlazoFijo`.`BancoPlazoTasa`
 (
 `bancoId`,
 `plazo`,
@@ -46,7 +46,7 @@ VALUES
 Now(),
 Now());
 
-INSERT INTO `plazofijo`.`bancoplazotasa`
+INSERT INTO `PlazoFijo`.`BancoPlazoTasa`
 (
 `bancoId`,
 `plazo`,
@@ -61,7 +61,7 @@ VALUES
 Now(),
 Now());
 
-INSERT INTO `plazofijo`.`bancoplazotasa`
+INSERT INTO `PlazoFijo`.`BancoPlazoTasa`
 (
 `bancoId`,
 `plazo`,
@@ -76,7 +76,7 @@ VALUES
 Now(),
 Now());
 
-INSERT INTO `plazofijo`.`bancoplazotasa`
+INSERT INTO `PlazoFijo`.`BancoPlazoTasa`
 (
 `bancoId`,
 `plazo`,
@@ -91,7 +91,7 @@ VALUES
 Now(),
 Now());
 
-INSERT INTO `plazofijo`.`bancoplazotasa`
+INSERT INTO `PlazoFijo`.`BancoPlazoTasa`
 (
 `bancoId`,
 `plazo`,
@@ -106,7 +106,7 @@ VALUES
 Now(),
 Now());
 
-INSERT INTO `plazofijo`.`bancoplazotasa`
+INSERT INTO `PlazoFijo`.`BancoPlazoTasa`
 (
 `bancoId`,
 `plazo`,
@@ -121,7 +121,7 @@ VALUES
 Now(),
 Now());
 
-INSERT INTO `plazofijo`.`bancoplazotasa`
+INSERT INTO `PlazoFijo`.`BancoPlazoTasa`
 (
 `bancoId`,
 `plazo`,
@@ -136,7 +136,7 @@ VALUES
 Now(),
 Now());
 
-INSERT INTO `plazofijo`.`bancoplazotasa`
+INSERT INTO `PlazoFijo`.`BancoPlazoTasa`
 (
 `bancoId`,
 `plazo`,
@@ -151,7 +151,7 @@ VALUES
 Now(),
 Now());
 
-INSERT INTO `plazofijo`.`bancoplazotasa`
+INSERT INTO `PlazoFijo`.`BancoPlazoTasa`
 (
 `bancoId`,
 `plazo`,
@@ -166,7 +166,7 @@ VALUES
 Now(),
 Now());
 
-INSERT INTO `plazofijo`.`bancoplazotasa`
+INSERT INTO `PlazoFijo`.`BancoPlazoTasa`
 (
 `bancoId`,
 `plazo`,
@@ -181,7 +181,7 @@ VALUES
 Now(),
 Now());
 
-INSERT INTO `plazofijo`.`bancoplazotasa`
+INSERT INTO `PlazoFijo`.`BancoPlazoTasa`
 (
 `bancoId`,
 `plazo`,
@@ -196,7 +196,7 @@ VALUES
 Now(),
 Now());
 
-INSERT INTO `plazofijo`.`bancoplazotasa`
+INSERT INTO `PlazoFijo`.`BancoPlazoTasa`
 (
 `bancoId`,
 `plazo`,
