@@ -20,7 +20,7 @@ CREATE TABLE BancoPlazoTasa (
     
     PRIMARY KEY (`id`,`plazo`),
     KEY `bancoId` (`bancoId`),
-    CONSTRAINT `bancoplazotasa_ibfk_1` FOREIGN KEY (`bancoId`) REFERENCES `banco` (`id`)
+    CONSTRAINT `bancoplazotasa_ibfk_1` FOREIGN KEY (`bancoId`) REFERENCES `Banco` (`id`)
 );
 
 
