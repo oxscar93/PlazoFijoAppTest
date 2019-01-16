@@ -44,7 +44,7 @@ ng serve
 * Default Local Ports:
 
 	* Node Js service: 3001
-	* FrontEnd App; 4200
+	* FrontEnd App: 4200
 
 * FrontEnd:
 	By default, the project was configured to run locally, but you can change service endpoint via environment.ts file.
