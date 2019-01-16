@@ -49,3 +49,6 @@ ng serve
 * FrontEnd:
 	By default, the project was configured to run locally, but you can change service endpoint via environment.ts file.
 
+## Demo
+
+* To see a full demo, please follow this link: http://192.241.152.234/plazoFijoApp/

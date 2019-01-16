@@ -7,8 +7,9 @@ import { BancoResolverService } from './banco-list/banco-resolver.service';
 
 const routes: Routes = [{ path: 'banco-list', component: BancoListComponent,
                           resolve: {bancoTasaList: BancoResolverService}},
-                        { path: 'plazo-list', component: PlazoListComponent, 
-                          resolve: {bancoList: PlazoResolverService}}];
+                        { path: 'calculate-plazo', component: PlazoListComponent, 
+                          resolve: {bancoList: PlazoResolverService}},
+                        { path: '', redirectTo: '/calculate-plazo', pathMatch: 'full' }];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
