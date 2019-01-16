@@ -49,8 +49,9 @@ __webpack_require__.r(__webpack_exports__);
 
 var routes = [{ path: 'banco-list', component: _banco_list_banco_list_component__WEBPACK_IMPORTED_MODULE_3__["BancoListComponent"],
         resolve: { bancoTasaList: _banco_list_banco_resolver_service__WEBPACK_IMPORTED_MODULE_6__["BancoResolverService"] } },
-    { path: 'plazo-list', component: _plazo_list_plazo_list_component__WEBPACK_IMPORTED_MODULE_4__["PlazoListComponent"],
-        resolve: { bancoList: _plazo_list_plazo_resolver_service__WEBPACK_IMPORTED_MODULE_5__["PlazoResolverService"] } }];
+    { path: 'calculate-plazo', component: _plazo_list_plazo_list_component__WEBPACK_IMPORTED_MODULE_4__["PlazoListComponent"],
+        resolve: { bancoList: _plazo_list_plazo_resolver_service__WEBPACK_IMPORTED_MODULE_5__["PlazoResolverService"] } },
+    { path: '', redirectTo: '/calculate-plazo', pathMatch: 'full' }];
 var AppRoutingModule = /** @class */ (function () {
     function AppRoutingModule() {
     }
@@ -465,7 +466,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<nav class=\"navbar navbar-expand-lg navbar-dark bg-primary\">\n  <a class=\"navbar-brand\" href=\"#\">Plazos Fijos</a>\n  <button class=\"navbar-toggler\" type=\"button\" (click)=\"isMenuCollapse = !isMenuCollapse\">\n    <span class=\"navbar-toggler-icon\"></span>\n  </button>\n\n  <div class=\"collapse navbar-collapse\" [ngClass]=\"{'collapse': !isMenuCollapse}\"  (click)=\"isMenuCollapse = !isMenuCollapse\">\n    <ul class=\"navbar-nav mr-auto\">\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/plazo-list\" routerLinkActive=\"active\">Calcular Plazos</a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/banco-list\" routerLinkActive=\"active\">Bancos y tasas</a>\n      </li>\n    </ul>\n  </div>\n</nav>"
+module.exports = "<nav class=\"navbar navbar-expand-lg navbar-dark bg-primary\">\n  <a class=\"navbar-brand\" href=\"#\">Plazos Fijos</a>\n  <button class=\"navbar-toggler\" type=\"button\" (click)=\"isMenuCollapse = !isMenuCollapse\">\n    <span class=\"navbar-toggler-icon\"></span>\n  </button>\n\n  <div class=\"collapse navbar-collapse\" [ngClass]=\"{'collapse': !isMenuCollapse}\"  (click)=\"isMenuCollapse = !isMenuCollapse\">\n    <ul class=\"navbar-nav mr-auto\">\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/calculate-plazo\" routerLinkActive=\"active\">Calcular Plazos</a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/banco-list\" routerLinkActive=\"active\">Bancos y tasas</a>\n      </li>\n    </ul>\n  </div>\n</nav>"
 
 /***/ }),
 
